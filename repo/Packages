@@ -26,3 +26,14 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+Package: com.orsxn.T1B01
+Name: com.orsxn.T1B01
+Version: 0.1
+Architecture: iphoneos-arm
+Description: This is a test theme
+Maintainer: Orsxn
+Author: Orsxn <orsoncopeland@icloud.com>
+Depends: com.matchstic.xenhtml_0.4rc5-4_iphoneos-arm
+Filename: ./debs/com.orsxn.T1B0.1.deb
+Size: 690
+MD5sum: 6f96ad3477c67938bc1ad56432f64745
