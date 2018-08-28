@@ -1,0 +1,12 @@
+Package: com.orsxn.T1B01
+Name: com.orsxn.T1B01
+Section: Themes
+Version: 0.1
+Architecture: iphoneos-arm
+Description: This is a test theme
+Maintainer: Orsxn
+Author: Orsxn <orsoncopeland@icloud.com>
+Depends: 
+Filename: ./debs/com.orsxn.T1B0.1.deb
+Size: 690
+MD5sum: ED9C463B0F465910E7A959C09A00DCEB
