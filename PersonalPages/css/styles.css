@@ -73,6 +73,17 @@ header a:hover{
     color: #808e9b;
     font-weight: bold;
 }
+/* Burger Nav */
+header label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+header #toggle{
+    display: none;
+}
 
 /* Showcase*/
 #showcase{
@@ -142,10 +153,28 @@ footer{
 
 /*media queries*/
 
-@media (max-width: 500px){
-    header #branding,
+@media only screen and (max-width: 800px){
+    header label{
+        display:block;
+    }
+    
+    .ham-brg{
+        text-align: center;
+        display: block;
+    }
+    
+    header nav a{
+        display:inline;
+        text-align: center;
+        border-bottom: #3c6382 3px solid;
+        margin: 0;
+    }
+    
+    #toggle:checked + nav{
+        display: block;
+    }
     header nav,
-    header nav li,
+    header #branding,
     #newletter h1,
     #newsletter form,
     #boxes .box{
