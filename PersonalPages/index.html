@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="css/styles.css" type="text/css">
-<head>
-<title>Project WebDev Journey</title>
-</head>
-<body>
-    
-    <div class="header-image">
+    <head>
+        <title>Project WebDev Journey</title>
+        <meta name="viewport" content="width+device-width">
+    </head>
+
+    <body>
         
-        <div id="header-title">
-            Welcome
-        </div>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Personal</span> Pages</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
         
-    </div>
-    
-</body>
+        <section id="showcase"> 
+            <div class="container">
+                <h1>A page to showcase yourself to employers.</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+            </div>
+        </section>
+        
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to our newsletter</h1>
+                <form>
+                    <input type="email" placeholder="enter email">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="images/html5.svg" height="60px">
+                    <h3>HTML5</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                
+                <div class="box">
+                    <img src="images/css3.svg" height="68px">
+                    <h3>CSS3</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                
+                <div class="box">
+                    <img src="images/javascript-4.svg" height="60px">
+                    <h3>JAVASCRIPT</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Orson Web Design, Copyright &copy; 2019</p>
+        </footer>
+
+    </body>
 </html>
