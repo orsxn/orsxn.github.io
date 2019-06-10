@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "nav.css",
+	"sources": [
+		"../../scss/layout/nav.scss"
+	],
+	"sourcesContent": [
+		"nav{\r\n    float: right;\r\n    margin-top: 10px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,GAAG,CAAA;EACC,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,IAAI;CACnB"
+}

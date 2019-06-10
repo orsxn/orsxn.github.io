@@ -1,0 +1,41 @@
+#newsletter{
+
+    padding: 15px;
+    color: #f5f6fa;
+    background:  $primary-color;
+    border-bottom: $secondary-color 6px solid;
+    border-top: $secondary-color 6px solid;
+  
+  
+  
+  h1{
+      float: left;
+      font-size: 20px;
+  }
+  
+  form{
+      float: right;
+  }
+  
+  input[type="email"]{
+      padding: 4px;
+      height: 25px;
+      width: 250px;
+  }
+}
+
+
+#boxes{
+    margin-top: 20px;
+    
+
+
+.box{
+    
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+}

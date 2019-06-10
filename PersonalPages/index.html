@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="css/styles.css" type="text/css">
+<link rel="stylesheet" href="css/main.css" type="text/css">
     <head>
         <title>Project WebDev Journey</title>
         <meta name="viewport" content="width+device-width">
     </head>
 
-    <body>
-
-        <header>
-             <div class="container">
+    <body>  
+        <header class="scrolled">
+            <div class="container">
                 <div id="branding">
                     <h1><span class="highlight">Personal</span> Pages</h1>
                 </div>
-                 <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle">
                 <nav>
-                    
                     <ul>
                         <li class="current"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="#skill-set-sec">Skill Set</a></li>
                         <li><a href="services.html">Services</a></li>
                     </ul>
                 </nav>
@@ -33,18 +29,14 @@
             </div>
         </section>
 
-        <section id="newsletter">
-            <div class="container">
-                <h1>Subscribe to our newsletter</h1>
-                <form>
-                    <input type="email" placeholder="enter email">
-                    <button type="submit" class="button_1">Subscribe</button>
-                </form>
-            </div>
-        </section>
+      
 
         <section id="boxes">
+
             <div class="container">
+                
+            <h1>Skill Set</h1>
+
                 <div class="box">
                     <img src="images/html5.svg" height="60px">
                     <h3>HTML5</h3>
@@ -64,10 +56,23 @@
                 </div>
             </div>
         </section>
+        <br>
+
+        <section id="newsletter">
+                <div class="container">
+                    <h1>Subscribe to our newsletter</h1>
+                    <form>
+                        <input type="email" placeholder="enter email">
+                        <button type="submit" class="button_1">Subscribe</button>
+                    </form>
+                </div>
+            </section>
 
         <footer>
             <p>Orson Web Design, Copyright &copy; 2019</p>
         </footer>
+        
 
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </html>

@@ -1,0 +1,43 @@
+body{
+    font: 15px/1.5 arial, helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+@media (max-width: 500px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newletter h1,
+    #newsletter form,
+    #skill-set-sec .box{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header{
+        padding-bottom: 20px;
+    }
+    
+    #showcase h1{
+        margin-top: 40px;
+    }
+    
+    #newsletter buttom{
+        display: block;
+        width: 100%;}
+
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-bottom:5px;
+    }
+}
+
